@@ -1,0 +1,435 @@
+Create the complete index.html for my “APEX UNIVERSITY” website.
+
+IMPORTANT:
+I already have a complete style.css file. Build the HTML so that it uses the existing CSS classes exactly. DO NOT create a new CSS system and DO NOT rename the CSS classes unnecessarily.
+
+Technology:
+- HTML5
+- Vanilla JavaScript will be added separately in script.js
+- Use semantic HTML
+- Use Font Awesome icons via CDN
+- Use Google Fonts: Poppins and Playfair Display
+
+CSS file:
+<link rel="stylesheet" href="style.css">
+
+Logo:
+assets/apex-university-logo.png
+
+The final page should look like a premium, prestigious, modern university website using navy, white and gold.
+
+==================================================
+NAVBAR
+==================================================
+
+Create a fixed navbar with:
+
+Logo:
+Apex University logo + “APEX UNIVERSITY”
+
+Navigation:
+Home
+About
+Programs
+Campus
+Admissions
+Student Life
+Contact
+
+Right side:
+Apply Now button
+
+Include mobile hamburger button using class:
+.menu-toggle
+
+Navigation container/classes should match the existing CSS:
+.navbar
+.nav-container
+.logo
+.nav-links
+.nav-apply
+.menu-toggle
+
+==================================================
+LOADING SCREEN
+==================================================
+
+Create:
+
+.loader
+.loader-content
+.logo image
+APEX UNIVERSITY heading
+.loader-line with span
+
+The JavaScript will later remove the “hide” class after page load.
+
+==================================================
+HERO
+==================================================
+
+Create a full-screen hero with:
+
+<section class="hero" id="home">
+
+Use:
+.hero-container
+.hero-content
+.hero-badge
+.hero-text
+.hero-buttons
+.btn
+.btn-primary
+.btn-outline
+.hero-visual
+.hero-image
+.floating-card
+.card-one
+.card-two
+.scroll-indicator
+
+Content:
+
+Badge:
+“EMPOWERING MINDS • SHAPING FUTURES”
+
+Heading:
+“Where Ambition Meets Excellence.”
+
+Put “Excellence.” inside <span> so CSS makes it gold.
+
+Paragraph:
+“Discover an education designed to challenge your thinking, unlock your potential, and prepare you to lead in a rapidly changing world.”
+
+Buttons:
+Explore Programs
+Apply Now
+
+Add:
+“Admissions Open • 2026–27”
+
+Hero visual should contain a high-quality university/student image from Unsplash and floating cards:
+
+“10,000+ Students”
+“95% Graduate Success”
+
+==================================================
+ABOUT
+==================================================
+
+<section class="section about" id="about">
+
+Use:
+.about-grid
+.about-image
+.about-content
+.about-features
+.about-feature
+
+Heading:
+“More Than a University. A Launchpad for Your Future.”
+
+Write polished university content about academic excellence, innovation, research and student development.
+
+Create feature cards:
+Vision
+Mission
+Innovation
+Excellence
+
+Include a “Discover Our Story” button.
+
+==================================================
+STATISTICS
+==================================================
+
+<section class="section stats">
+
+Create .stats-grid containing 5 .stat elements.
+
+Use data attributes for JavaScript counters:
+
+10,000+ Students
+50+ Academic Programs
+500+ Faculty Members
+95% Graduate Success
+25+ Years of Excellence
+
+Example:
+<strong class="counter" data-target="10000">0</strong>
+<span>Students</span>
+
+==================================================
+ACADEMIC PROGRAMS
+==================================================
+
+<section class="section programs" id="programs">
+
+Use:
+.section-title
+.program-grid
+.program-card
+.program-number
+.program-icon
+
+Create 6 cards:
+
+01 Engineering & Technology
+02 Business & Management
+03 Computer Science
+04 Arts & Humanities
+05 Science & Research
+06 Design & Innovation
+
+Each card needs an icon, description and:
+“Explore Program →”
+
+==================================================
+WHY APEX
+==================================================
+
+<section class="section why">
+
+Heading:
+“Why Students Choose Apex”
+
+Use .feature-grid and .feature-card.
+
+Create:
+Future-Ready Learning
+Industry Connections
+World-Class Faculty
+Innovation & Research
+Global Perspective
+Vibrant Campus Life
+
+==================================================
+CAMPUS LIFE
+==================================================
+
+<section class="section campus" id="campus">
+
+Heading:
+“Experience Campus Life”
+
+Use .campus-grid and .campus-item.
+
+Create image cards for:
+Innovation Labs
+Modern Library
+Student Center
+Sports & Fitness
+Cultural Events
+Research Facilities
+
+Make the first/major image use class:
+.campus-item.large
+
+Use high-quality Unsplash images.
+
+==================================================
+ADMISSIONS CTA
+==================================================
+
+<section class="section admissions" id="admissions">
+
+Heading:
+“Your Future Starts Here.”
+
+Text:
+“Take the first step toward an education that transforms ambition into achievement.”
+
+Buttons:
+Start Your Application
+Talk to Admissions
+
+==================================================
+STUDENT LIFE
+==================================================
+
+Create a premium section with 3 cards:
+
+Campus Communities
+Clubs & Societies
+Leadership & Events
+
+Use the existing .feature-card style where appropriate.
+
+==================================================
+TESTIMONIALS
+==================================================
+
+<section class="section testimonials">
+
+Heading:
+“Voices of Apex”
+
+Create:
+
+<div class="testimonial-slider">
+
+Each .testimonial should contain:
+student image
+blockquote
+student name
+program
+
+Create 3 testimonials.
+
+Add controls using:
+.slider-controls
+.slider-btn
+
+Buttons:
+Previous
+Next
+
+Add dots for the slider.
+
+==================================================
+NEWS & EVENTS
+==================================================
+
+Create section with 3 .news-card elements.
+
+Use:
+.news-grid
+.news-card
+.news-image
+.news-content
+.news-date
+
+Events:
+Research Symposium
+Annual Cultural Fest
+Innovation Summit
+
+Each should have date, title, description and “Read More →”.
+
+==================================================
+CONTACT
+==================================================
+
+<section class="section contact" id="contact">
+
+Use:
+.contact-grid
+.contact-info
+.contact-detail
+.contact-form
+.form-group
+.form-success
+
+Left:
+“Let's Connect”
+
+Include:
+Apex University Campus
+admissions@apexuniversity.edu
++91 00000 00000
+
+Right form:
+Full Name
+Email
+Phone
+Program Interested In
+Message
+Submit button
+
+Use proper labels and input types.
+
+Add:
+<div class="form-success">
+Thank you! Our admissions team will contact you soon.
+</div>
+
+==================================================
+FOOTER
+==================================================
+
+Use:
+.footer
+.footer-grid
+.footer-brand
+.footer-column
+.footer-bottom
+
+Include:
+Apex University logo
+“Empowering Minds. Shaping Futures.”
+
+Columns:
+University
+About
+Programs
+Admissions
+Campus
+
+Resources
+Student Portal
+Library
+Career Services
+Research
+
+Connect
+Instagram
+LinkedIn
+YouTube
+Facebook
+
+Bottom:
+© 2026 Apex University. All Rights Reserved.
+“Made with ambition.”
+
+==================================================
+BACK TO TOP
+==================================================
+
+Add:
+<button class="back-to-top" aria-label="Back to top">↑</button>
+
+==================================================
+SEO + ACCESSIBILITY
+==================================================
+
+Add:
+<title>Apex University | Empowering Minds, Shaping Futures</title>
+
+Meta description:
+“Discover Apex University — a modern institution dedicated to academic excellence, innovation, research and preparing students for the future.”
+
+Add viewport meta tag, semantic HTML, alt text for every image, accessible labels and ARIA attributes where appropriate.
+
+==================================================
+ANIMATION HOOKS
+==================================================
+
+Add class="reveal" to sections/cards that should animate on scroll.
+
+Also use:
+.reveal-left
+.reveal-right
+
+The JavaScript will handle these animations.
+
+==================================================
+IMPORTANT
+==================================================
+
+Make sure every class used is compatible with my existing style.css.
+
+Do not write CSS inside HTML.
+
+Do not use inline styles.
+
+Use realistic, polished university content — NO lorem ipsum.
+
+Use high-quality Unsplash images for campus/student sections.
+
+Make the page visually impressive, spacious and professional.
+
+At the end, include:
+
+<script src="script.js"></script>
+
+Generate ONLY the complete index.html code.
